@@ -1,0 +1,19 @@
+
+기존에 있던 
+application.properties를 지우고
+application.yml 파일 새로 생성함
+=========================================================================
+application.properties란?
+
+: Spring Boot Application의 설정을 관리하는 설정파일
+Spring Boot는 src/main/resources에 있는 application.properties를 읽어 
+Spring Boot 환경을 설정
+ex) 포트설정, 데이터베이스 사용자 설정 등
+=========================================================================
+application.properties vs application.yml
+
+: application.yml도 application.properties와 마찬가지로 
+Spring Boot의 설정을 관리하는 파일
+yml은 설정을 계층적으로 작성할 수 있기 때문에 작성이 편하며 이해하기 친숙
+그래서 yml을 써보려고함
+=========================================================================	
