@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8009
   servlet:
     context-path: /sunboard_boot
     
@@ -7,4 +7,7 @@ spring:
   mvc:
     view:      prefix: /WEB-INF/views/
       suffix: .jsp
-      
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver    url: jdbc:mysql://localhost:3306/sunboard_boot?serverTimezone=UTC&useUniCode=yes&characterEncoding=UTF-8
+    username: root 
+    password: 1004
