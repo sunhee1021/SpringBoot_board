@@ -1,5 +1,10 @@
 package com.sunboard.springboot.service;
 
-public interface UserService {
+import java.util.Map;
 
+import com.sunboard.springboot.model.User;
+
+public interface UserService {
+	
+	public User login(Map<String, String> map);
 }

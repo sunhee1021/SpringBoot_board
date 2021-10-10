@@ -6,10 +6,10 @@
 $(document).ready(function() {
 	$("#loginBtn").click(function() {
 		if($("#userid").val() == "") {
-			alert("아이디 입력!!!");
+			alert("아이디를 입력하세요");
 			return;
 		} else if($("#userpwd").val() == "") {
-			alert("비밀번호 입력!!!");
+			alert("비밀번호를 입력하세요");
 			return;
 		} else {
 			$("#loginform").attr("action", "${root}/user/login").submit();
